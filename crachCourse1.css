@@ -3,12 +3,12 @@ h1 {
     font-weight: 300;
 }
 
-.bullets {
+#bullets {
     color: green;
 }
 
-.button {
-    border: 3px solid black;
-    background-color: purple;
-    color: black;
+#button {
+    border: 1px solid black;
+    background-color: rgb(189, 160, 189);
+    color: white;
 }
