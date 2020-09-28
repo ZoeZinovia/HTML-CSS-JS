@@ -13,6 +13,11 @@ var btn = document.querySelector("button");
 var img = document.querySelector("img");
 var num = 1;
 
+$.getJSON("name.json", function(user){
+    $("#result").text("Welcome " + user.name + " AKA Miss " + user.lastName);
+});
+
+
 $("#para1 span").css("text-decoration", "underline");
 // $("*").css("color", "red");
 
