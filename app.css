@@ -27,6 +27,11 @@ button {
     padding: 20px 25px;
     letter-spacing: 4px;;
 }
+
+#submit {
+    padding: 0;
+}
+
 button:hover {
     background-color: white;
     color: rgb(162, 126, 144);
